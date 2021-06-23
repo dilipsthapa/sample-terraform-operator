@@ -1,3 +1,3 @@
 variable "bucket_name" {
-  default = ""
+  default = "test-bucket-created-by-terraform-operator"
 }
