@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "test-bucket-by-terraform-operator"
+  bucket = var.bucket_name
   acl    = "private"
 
   tags = {
